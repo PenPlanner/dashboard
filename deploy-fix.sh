@@ -3,10 +3,10 @@
 # PenPlanner Dashboard - Fixed Deployment Script
 echo "🚀 Deploying PenPlanner Dashboard to correct structure..."
 
-# FTP Server Details
-FTP_HOST="ftpcluster.loopia.se"
-FTP_USER="PenPlanner"
-FTP_PASS="Flight2025!"
+# FTP Server Details (Default values)
+FTP_HOST="${FTP_HOST:-ftpcluster.loopia.se}"
+FTP_USER="${FTP_USER:-PenPlanner}"
+FTP_PASS="${FTP_PASS:-Flight2025!}"
 
 # Build the project
 echo "📦 Building project..."

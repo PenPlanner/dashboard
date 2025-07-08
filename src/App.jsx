@@ -69,7 +69,7 @@ function App() {
           {/* Subtle branding */}
           <div className="text-center mt-16 opacity-60">
             <p className="text-sm text-gray-500">
-              Built with precision and care for productivity
+              Engineered for precision. Designed for productivity.
             </p>
           </div>
         </div>

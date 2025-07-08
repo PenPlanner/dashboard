@@ -5,6 +5,20 @@ const ChangelogModal = ({ isOpen, onClose }) => {
 
   const changelog = [
     {
+      version: "v1.0.0",
+      date: "2024-07-08",
+      changes: [
+        "🎉 Official 1.0 release of MarkOS Labs Dashboard",
+        "Swedish flag favicon for brand identity",
+        "Improved version icon with modern clock design",
+        "Enhanced footer tagline: 'Engineered for precision. Designed for productivity.'",
+        "Optimized deployment workflow with quick-deploy scripts",
+        "Production-ready stability and performance",
+        "Complete feature set with all 4 project modules",
+        "Professional grade user interface and experience"
+      ]
+    },
+    {
       version: "v0.2.0",
       date: "2024-07-08",
       changes: [

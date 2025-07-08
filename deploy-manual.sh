@@ -42,7 +42,7 @@ quit
 EOF
 
 echo "📤 Connecting to FTP server..."
-echo "When prompted, enter password: Flight2025!"
+echo "When prompted, enter password: ${FTP_PASS:-Flight2025!}"
 
 ftp -i ftpcluster.loopia.se < ftp_commands.txt
 
