@@ -5,17 +5,30 @@ const ChangelogModal = ({ isOpen, onClose }) => {
 
   const changelog = [
     {
+      version: "v0.2.0",
+      date: "2024-07-08",
+      changes: [
+        "Complete English translation of all content",
+        "Updated brand identity to MarkOS Labs",
+        "Revised tagline: Plan. Equip. Deploy.",
+        "Renamed Verktygslåda to Toolbox with updated routing",
+        "Enhanced project descriptions for international audience",
+        "Updated Made in Sweden badge tooltip to English",
+        "Improved accessibility with English interface"
+      ]
+    },
+    {
       version: "v0.1.0",
       date: "2024-07-08",
       changes: [
-        "Initial release of PenPlanner Dashboard",
+        "Initial release of MarkOS Labs Dashboard",
         "Modern React + Vite + Tailwind CSS implementation",
-        "4 project cards with Swedish translations",
-        "Responsive 2x2 grid layout with hover animations",
+        "4 project modules with responsive design",
+        "2x2 grid layout with smooth hover animations",
         "Made in Sweden badge with authentic stamp design",
         "Glass-morphism effects and elegant styling",
-        "Complete deployment to penplanner.se",
-        "Functional routing to all project subfolders"
+        "Complete deployment infrastructure",
+        "Functional routing to all project modules"
       ]
     }
   ]

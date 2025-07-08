@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div className="fixed bottom-6 right-6 flex items-center space-x-3">
-        <span className="text-sm text-gray-500 font-medium">v0.1.0</span>
+        <span className="text-sm text-gray-500 font-medium">v0.2.0</span>
         <button
           onClick={() => setIsChangelogOpen(true)}
           className="w-8 h-8 rounded-full bg-white/70 backdrop-blur-sm border border-white/20 flex items-center justify-center hover:bg-white/80 transition-all duration-200 hover:scale-110 card-shadow"

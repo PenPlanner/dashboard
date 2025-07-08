@@ -7,29 +7,29 @@ import { PlannerIcon, OnboardingIcon, EquiplyIcon, ToolsIcon } from './component
 const projects = [
   {
     name: "PenPlanner",
-    description: "Organisera dina uppgifter och schema med intelligenta planeringsverktyg",
+    description: "Organize your tasks and schedule with intelligent planning tools",
     path: "https://penplanner.se/PenPlanner",
     icon: PlannerIcon,
     gradient: "from-blue-500 to-cyan-500"
   },
   {
     name: "Onboarding",
-    description: "Smidig användarupplevelse och guidad installationsprocess",
+    description: "Streamlined user experience and guided setup process",
     path: "https://penplanner.se/Onboarding", 
     icon: OnboardingIcon,
     gradient: "from-purple-500 to-pink-500"
   },
   {
     name: "Equiply",
-    description: "Beställningsformulär online för att enkelt förse tekniker med verktyg",
+    description: "Online ordering platform to easily equip technicians with tools",
     path: "https://penplanner.se/Equiply",
     icon: EquiplyIcon,
     gradient: "from-emerald-500 to-cyan-500"
   },
   {
-    name: "Verktygslåda",
-    description: "Samling av verktyg och hjälpmedel för produktivitet",
-    path: "https://penplanner.se/Verktygslada",
+    name: "Toolbox",
+    description: "Collection of utilities and productivity tools for enhanced workflow",
+    path: "https://penplanner.se/Toolbox",
     icon: ToolsIcon,
     gradient: "from-orange-500 to-red-500"
   }
@@ -45,11 +45,11 @@ function App() {
           <div className="text-center mb-8 animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                PenPlanner Ecosystem
+                MarkOS Labs
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Från planering till handling – ditt ekosystem väntar
+              Plan. Equip. Deploy.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ function App() {
           {/* Subtle branding */}
           <div className="text-center mt-16 opacity-60">
             <p className="text-sm text-gray-500">
-              Byggt med precision och omsorg för produktivitet
+              Built with precision and care for productivity
             </p>
           </div>
         </div>

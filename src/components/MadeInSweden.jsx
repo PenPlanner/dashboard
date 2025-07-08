@@ -31,7 +31,7 @@ const MadeInSweden = () => {
       {/* Hover tooltip */}
       <div className="absolute top-12 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
         <div className="bg-gray-900 text-white text-xs px-3 py-2 rounded-lg shadow-lg whitespace-nowrap">
-          Stolt utvecklat i Sverige 🇸🇪
+          Proudly developed in Sweden 🇸🇪
           <div className="absolute -top-1 right-6 w-2 h-2 bg-gray-900 transform rotate-45"></div>
         </div>
       </div>
