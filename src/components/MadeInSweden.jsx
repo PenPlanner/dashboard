@@ -2,11 +2,11 @@ import React from 'react'
 
 const MadeInSweden = () => {
   return (
-    <div className="fixed top-4 right-4 z-50 group">
+    <div className="absolute top-[68rem] left-1/2 transform -translate-x-1/2 md:top-10 md:right-4 md:left-auto md:translate-x-0 z-50 group scale-[0.6] md:scale-100">
       {/* Stamp-like badge */}
-      <div className="relative transform rotate-12 transition-all duration-300 hover:rotate-6 hover:scale-110">
-        <div className="bg-gradient-to-br from-blue-500 via-yellow-400 to-blue-600 p-0.5 rounded-full shadow-lg">
-          <div className="bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 border-2 border-dashed border-blue-500/60">
+      <div className="relative transform rotate-0 md:rotate-[35deg] transition-all duration-300 hover:rotate-0 md:hover:rotate-[30deg] hover:scale-110">
+        <div className="bg-gradient-to-br from-blue-500 via-yellow-400 to-blue-600 p-0.5 rounded-lg shadow-lg">
+          <div className="bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2 border-2 border-dashed border-blue-500/60">
             <div className="flex items-center space-x-2">
               {/* Swedish Flag */}
               <div className="relative w-6 h-4 rounded-sm overflow-hidden shadow-sm">
@@ -25,7 +25,7 @@ const MadeInSweden = () => {
         </div>
         
         {/* Stamp effect overlay */}
-        <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 border-dashed animate-pulse"></div>
+        <div className="absolute inset-0 rounded-lg border-2 border-blue-500/20 border-dashed animate-pulse"></div>
       </div>
       
       {/* Hover tooltip */}
