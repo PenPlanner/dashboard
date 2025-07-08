@@ -17,7 +17,8 @@ cat > upload_script.txt << EOF
 set ftp:ssl-allow no
 open ftp://$FTP_USER:$FTP_PASS@$FTP_HOST
 lcd dist
-mirror --reverse --delete --verbose ./ ./
+cd penplanner.se/public_html
+mirror --reverse --verbose ./ ./
 quit
 EOF
 

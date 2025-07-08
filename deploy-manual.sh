@@ -11,7 +11,7 @@ npm run build
 cat > ftp_commands.txt << 'EOF'
 binary
 prompt off
-cd /
+cd penplanner.se/public_html
 lcd dist
 mput *
 mkdir PenPlanner

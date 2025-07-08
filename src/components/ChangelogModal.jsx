@@ -5,30 +5,17 @@ const ChangelogModal = ({ isOpen, onClose }) => {
 
   const changelog = [
     {
-      version: "v0.3.1",
+      version: "v0.1.0",
       date: "2024-07-08",
       changes: [
-        "Added modern dashboard homepage design",
-        "Implemented responsive grid layout",
-        "Enhanced card hover animations",
-        "Improved mobile responsiveness"
-      ]
-    },
-    {
-      version: "v0.3.0",
-      date: "2024-06-15",
-      changes: [
-        "Initial dashboard structure",
-        "Basic routing implementation",
-        "Project card components"
-      ]
-    },
-    {
-      version: "v0.2.1",
-      date: "2024-05-20",
-      changes: [
-        "Bug fixes and improvements",
-        "Performance optimizations"
+        "Initial release of PenPlanner Dashboard",
+        "Modern React + Vite + Tailwind CSS implementation",
+        "4 project cards with Swedish translations",
+        "Responsive 2x2 grid layout with hover animations",
+        "Made in Sweden badge with authentic stamp design",
+        "Glass-morphism effects and elegant styling",
+        "Complete deployment to penplanner.se",
+        "Functional routing to all project subfolders"
       ]
     }
   ]

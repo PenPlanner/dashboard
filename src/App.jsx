@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './components/ProjectCard'
 import Footer from './components/Footer'
+import MadeInSweden from './components/MadeInSweden'
 import { PlannerIcon, OnboardingIcon, EquiplyIcon, ToolsIcon } from './components/icons'
 
 const projects = [
@@ -76,6 +77,9 @@ function App() {
 
       {/* Footer */}
       <Footer />
+      
+      {/* Made in Sweden Badge */}
+      <MadeInSweden />
     </div>
   )
 }
