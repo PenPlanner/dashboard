@@ -5,6 +5,18 @@ const ChangelogModal = ({ isOpen, onClose }) => {
 
   const changelog = [
     {
+      version: "v1.0.2",
+      date: "2024-07-09",
+      changes: [
+        "🎨 Rebranded from MarkOS Labs to PenPlanner Labs",
+        "✨ Added interactive hover effects on title and badge",
+        "🏷️ New 'Powered by MarkOS' badge with gradient styling",
+        "💫 Enhanced animations with scale and rotate effects",
+        "🎯 Improved color scheme consistency across components",
+        "⚡ Lightning bolt icon with rotation animation on hover"
+      ]
+    },
+    {
       version: "v1.0.0",
       date: "2024-07-08",
       changes: [

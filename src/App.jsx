@@ -43,14 +43,23 @@ function App() {
         <div className="container mx-auto px-6 py-8">
           {/* Header */}
           <div className="text-center mb-8 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                MarkOS Labs
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 cursor-pointer transition-all duration-300 hover:scale-105">
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-purple-600 hover:to-blue-600 transition-all duration-500">
+                PenPlanner Labs
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Plan. Equip. Deploy.
             </p>
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto mt-2">
+              A seamless flow from planning to execution, built for the field.
+            </p>
+            <div className="mt-4 flex justify-center">
+              <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-blue-500/80 to-purple-500/80 text-white shadow-md backdrop-blur-sm border border-white/10 cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg hover:from-blue-600/90 hover:to-purple-600/90 hover:border-white/20">
+                <span className="mr-2 transition-transform duration-300 hover:rotate-12">⚡</span>
+                Powered by MarkOS.
+              </span>
+            </div>
           </div>
 
           {/* Project Grid */}
