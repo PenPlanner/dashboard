@@ -2,7 +2,7 @@ import React from 'react'
 
 const MadeInSweden = () => {
   return (
-    <div className="absolute top-[68rem] left-1/2 transform -translate-x-1/2 md:top-10 md:right-4 md:left-auto md:translate-x-0 z-50 group scale-[0.6] md:scale-100">
+    <div className="absolute top-[76rem] left-1/2 transform -translate-x-1/2 md:top-10 md:right-4 md:left-auto md:translate-x-0 z-50 group scale-[0.6] md:scale-100">
       {/* Stamp-like badge */}
       <div className="relative transform rotate-0 md:rotate-[35deg] transition-all duration-300 hover:rotate-0 md:hover:rotate-[30deg] hover:scale-110">
         <div className="bg-gradient-to-br from-blue-500 via-yellow-400 to-blue-600 p-0.5 rounded-lg shadow-lg">
